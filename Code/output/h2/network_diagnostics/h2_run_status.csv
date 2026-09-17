@@ -1,0 +1,16 @@
+initialization,seed,status,failure_message,epochs_completed
+zero,654571,completed,,100
+zero,89250,completed,,100
+zero,773955,completed,,100
+small,654571,completed,,100
+small,89250,completed,,100
+small,773955,completed,,100
+xavier,654571,completed,,100
+xavier,89250,completed,,100
+xavier,773955,completed,,100
+he,654571,completed,,100
+he,89250,completed,,100
+he,773955,completed,,100
+large,654571,completed,,100
+large,89250,completed,,100
+large,773955,completed,,100

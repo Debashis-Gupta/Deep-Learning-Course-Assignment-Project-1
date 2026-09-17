@@ -1,0 +1,13 @@
+setting,value
+hidden_size,128
+activation,relu
+initialization,small
+learning_rate,0.1
+batch_size,128
+maximum_epochs,100
+number_of_seeds,3
+validation_accuracy_mean,0.9794666666666667
+validation_accuracy_std,0.000550757054728621
+validation_loss_mean,0.0742581185709784
+validation_loss_std,0.001683554045433072
+selection_score,0.9789159096119381

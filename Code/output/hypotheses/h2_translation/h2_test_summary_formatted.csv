@@ -1,0 +1,9 @@
+Shift Axis,Distance,Test Accuracy,Accuracy Drop,Test Loss
+horizontal,0 pixels,97.85% ± 0.04%,0.00 ± 0.00 points,0.0717 ± 0.0001
+horizontal,1 pixels,95.94% ± 0.11%,1.91 ± 0.14 points,0.1446 ± 0.0032
+horizontal,2 pixels,83.52% ± 0.06%,14.33 ± 0.10 points,0.6735 ± 0.0211
+horizontal,3 pixels,60.20% ± 0.86%,37.65 ± 0.82 points,2.1413 ± 0.1103
+vertical,0 pixels,97.85% ± 0.04%,0.00 ± 0.00 points,0.0717 ± 0.0001
+vertical,1 pixels,95.38% ± 0.10%,2.46 ± 0.12 points,0.1705 ± 0.0045
+vertical,2 pixels,81.90% ± 0.40%,15.95 ± 0.44 points,0.8441 ± 0.0226
+vertical,3 pixels,53.42% ± 0.34%,44.42 ± 0.34 points,2.9410 ± 0.0796

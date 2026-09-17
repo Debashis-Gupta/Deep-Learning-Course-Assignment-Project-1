@@ -1,0 +1,4 @@
+Condition,Number of Results,Validation Accuracy,Validation Loss
+Individual Models,3,97.95% ± 0.06%,0.0743 ± 0.0017
+Two-Model Ensembles,3,97.96% ± 0.02%,0.0673 ± 0.0008
+Three-Model Ensemble,1,98.00%,0.0650

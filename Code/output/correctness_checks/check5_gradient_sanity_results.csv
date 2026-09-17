@@ -1,0 +1,8 @@
+Check,Measured Value,Expected Value,Status
+Minibatch loss is finite,2.4195950830198103,Finite,PASS
+Every gradient value is finite,True,True,PASS
+Every gradient norm is nonzero,True,True,PASS
+Global gradient norm is finite,1.7518767524825514,Finite,PASS
+Gradient shapes match parameters,True,True,PASS
+Hidden layer contains active units,0.464599609375,Strictly between 0 and 1,PASS
+No example has fully inactive layer,0,0,PASS

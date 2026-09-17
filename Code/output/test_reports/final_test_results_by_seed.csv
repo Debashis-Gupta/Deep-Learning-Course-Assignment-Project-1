@@ -1,0 +1,4 @@
+initialization,learning_rate,seed,selected_epoch,validation_loss,validation_accuracy,test_loss,test_accuracy,checkpoint_path
+small,0.1,89250,68,0.07593618481695892,0.9795,0.07160353620150209,0.9789,output/test_reports/checkpoints/best_model_init-small_lr-0p1_seed-89250.pt
+small,0.1,654571,75,0.07256912987299043,0.98,0.0716402021780489,0.9781,output/test_reports/checkpoints/best_model_init-small_lr-0p1_seed-654571.pt
+small,0.1,773955,80,0.07426904102298583,0.9789,0.07186082943364361,0.9784,output/test_reports/checkpoints/best_model_init-small_lr-0p1_seed-773955.pt

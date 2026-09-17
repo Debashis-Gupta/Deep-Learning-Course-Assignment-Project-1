@@ -1,0 +1,9 @@
+Check,Measured Value,Expected Value,Status
+Uniform logits produce log(10),2.3025850929940463,2.302585092994046,PASS
+Uniform probabilities equal 0.1,"[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]","[0.1, ..., 0.1]",PASS
+Uniform probability rows sum to one,0.0,Maximum deviation <= 1e-12,PASS
+Initial loss is finite,2.3619119246570257,Finite,PASS
+Initial loss within PDF range,2.3619119246570257,"[2.2, 2.5]",PASS
+Initial probabilities are finite,True,True,PASS
+Initial probability rows sum to one,3.3306690738754696e-16,Maximum deviation <= 1e-12,PASS
+Independent loss reconstruction,0.0,Absolute difference <= 1e-12,PASS

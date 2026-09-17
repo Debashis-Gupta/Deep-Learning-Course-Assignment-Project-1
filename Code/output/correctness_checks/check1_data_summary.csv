@@ -1,0 +1,4 @@
+Split,Feature Shape,Label Shape,Feature Type,Label Type,Minimum Pixel,Maximum Pixel,All Features Finite,Minimum Label,Maximum Label,Number of Classes
+Training,"(50000, 784)","(50000,)",float64,int64,0.0,1.0,True,0,9,10
+Validation,"(10000, 784)","(10000,)",float64,int64,0.0,1.0,True,0,9,10
+Test,"(10000, 784)","(10000,)",float64,int64,0.0,1.0,True,0,9,10

@@ -1,0 +1,4 @@
+Initialization,Learning Rate,Seed,Selected Epoch,Validation Loss,Validation Accuracy,Test Loss,Test Accuracy
+small,0.1,89250,68,0.0759,97.95%,0.0716,97.89%
+small,0.1,654571,75,0.0726,98.00%,0.0716,97.81%
+small,0.1,773955,80,0.0743,97.89%,0.0719,97.84%

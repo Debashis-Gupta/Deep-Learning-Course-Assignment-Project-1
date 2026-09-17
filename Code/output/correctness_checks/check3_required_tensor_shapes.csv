@@ -1,0 +1,16 @@
+Category,Mathematical Symbol,Code Name,Meaning,Expected Shape,Actual Shape,Carries Batch Dimension
+Forward,X,X,Input minibatch,"(B, D) = (32, 784)","(32, 784)",Yes
+Forward,Z^(1),Z1,Hidden pre-activation,"(B, H) = (32, 128)","(32, 128)",Yes
+Forward,H^(1),A1,Hidden activation,"(B, H) = (32, 128)","(32, 128)",Yes
+Forward,A,logits,Output logits,"(B, K) = (32, 10)","(32, 10)",Yes
+Forward,P,probabilities,Softmax probabilities,"(B, K) = (32, 10)","(32, 10)",Yes
+Parameter,W^(1),W1,Input-to-hidden weights,"(H, D) = (128, 784)","(128, 784)",No
+Parameter,b^(1),b1,Hidden-layer bias,"(H,) = (128,)","(128,)",No
+Parameter,W^(2),W2,Hidden-to-output weights,"(K, H) = (10, 128)","(10, 128)",No
+Parameter,b^(2),b2,Output-layer bias,"(K,) = (10,)","(10,)",No
+Error Matrix,Delta^(2),delta2,Output-layer error,"(B, K) = (32, 10)","(32, 10)",Yes
+Error Matrix,Delta^(1),delta1,Hidden-layer error,"(B, H) = (32, 128)","(32, 128)",Yes
+Gradient,grad W^(1),dW1,Input-weight gradient,"(H, D) = (128, 784)","(128, 784)",No
+Gradient,grad b^(1),db1,Hidden-bias gradient,"(H,) = (128,)","(128,)",No
+Gradient,grad W^(2),dW2,Output-weight gradient,"(K, H) = (10, 128)","(10, 128)",No
+Gradient,grad b^(2),db2,Output-bias gradient,"(K,) = (10,)","(10,)",No

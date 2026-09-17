@@ -1,0 +1,11 @@
+setting,value
+hypothesis,ReLU will converge faster than tanh and sigmoid under fixed training conditions.
+activations,"relu, tanh, sigmoid"
+hidden_size,128
+initialization,small
+learning_rate,0.1
+batch_size,128
+epochs,100
+accuracy_threshold,0.95
+training_seeds,"654571, 89250, 773955"
+split_seed,42

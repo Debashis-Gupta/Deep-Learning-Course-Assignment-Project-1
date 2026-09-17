@@ -1,0 +1,22 @@
+Check,Measured Value,Expected Value,Status
+X shape,"(32, 784)","(32, 784)",PASS
+Z1 shape,"(32, 128)","(32, 128)",PASS
+A1 shape,"(32, 128)","(32, 128)",PASS
+logits shape,"(32, 10)","(32, 10)",PASS
+probabilities shape,"(32, 10)","(32, 10)",PASS
+X values finite,True,True,PASS
+Z1 values finite,True,True,PASS
+A1 values finite,True,True,PASS
+logits values finite,True,True,PASS
+probabilities values finite,True,True,PASS
+ReLU activations nonnegative,0.0,Minimum >= 0,PASS
+ReLU contains active and inactive units,0.53662109375,Strictly between 0 and 1,PASS
+Probability range,"[0.01458017, 0.31230997]","[0, 1]",PASS
+Probability rows sum to one,2.220446049250313e-16,Maximum deviation <= 1e-12,PASS
+Prediction range,"(0, 9)",Integers from 0 through 9,PASS
+Repeated forward pass,True,True,PASS
+Extreme-logit probabilities finite,True,True,PASS
+Extreme-logit rows sum to one,1.1102230246251565e-16,Maximum deviation <= 1e-12,PASS
+Extreme-logit loss finite,0.4784560543892177,Finite,PASS
+ReLU derivative at zero,0.0,0.0,PASS
+ReLU derivative values,"[[0.0, 0.0, 0.0, 1.0, 1.0]]","[[0.0, 0.0, 0.0, 1.0, 1.0]]",PASS

@@ -1,0 +1,5 @@
+Quantity,NumPy Shape,PyTorch Shape,Maximum Absolute Difference,Values Match,Status
+Z1,"(3, 3)","(3, 3)",0.0,True,PASS
+A1,"(3, 3)","(3, 3)",0.0,True,PASS
+logits,"(3, 2)","(3, 2)",0.0,True,PASS
+probabilities,"(3, 2)","(3, 2)",2.7755575615628914e-17,True,PASS

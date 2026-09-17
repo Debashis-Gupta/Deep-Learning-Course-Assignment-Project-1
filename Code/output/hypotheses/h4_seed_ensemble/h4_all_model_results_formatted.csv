@@ -1,0 +1,8 @@
+Model Type,Model,Validation Loss,Validation Accuracy
+Individual,654571,0.0726,98.00%
+Individual,89250,0.0759,97.95%
+Individual,773955,0.0743,97.89%
+Two-Model Ensemble,654571 + 89250,0.0676,97.97%
+Two-Model Ensemble,654571 + 773955,0.0665,97.98%
+Two-Model Ensemble,89250 + 773955,0.0679,97.94%
+Three-Model Ensemble,All three seeds,0.0650,98.00%

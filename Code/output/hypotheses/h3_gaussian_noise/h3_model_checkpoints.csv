@@ -1,0 +1,4 @@
+seed,selected_epoch,validation_accuracy,validation_loss,checkpoint_path
+654571,75,0.98,0.07256912987299043,output/test_reports/checkpoints/best_model_init-small_lr-0p1_seed-654571.pt
+89250,68,0.9795,0.07593618481695892,output/test_reports/checkpoints/best_model_init-small_lr-0p1_seed-89250.pt
+773955,80,0.9789,0.07426904102298583,output/test_reports/checkpoints/best_model_init-small_lr-0p1_seed-773955.pt

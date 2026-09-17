@@ -1,0 +1,6 @@
+Check,Measured Value,Required Value,Status
+Tiny inputs use float64,float64,float64,PASS
+Parameters use float64,True,True,PASS
+ReLU points away from zero,0.2791118023374846,> 0.001,PASS
+All parameter relative errors,2.3841059346017818e-11,< 1e-06,PASS
+Parameters restored after perturbation,True,True,PASS

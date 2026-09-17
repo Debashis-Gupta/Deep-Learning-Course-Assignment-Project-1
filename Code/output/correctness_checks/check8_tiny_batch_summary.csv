@@ -1,0 +1,5 @@
+Check,Measured Value,Required Value,Status
+Balanced 20-example subset,"[2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",Two examples per class,PASS
+Final training accuracy,1.0,1.0,PASS
+Final training loss,0.000999775145748438,< 0.001,PASS
+Update-step budget,250,At most 500,PASS

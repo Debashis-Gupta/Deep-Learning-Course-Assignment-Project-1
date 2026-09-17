@@ -1,0 +1,5 @@
+Gradient,Returned Shape,Reconstructed Shape,Maximum Absolute Difference,Formulas Match,Status
+dW1,"(128, 784)","(128, 784)",0.0,True,PASS
+db1,"(128,)","(128,)",0.0,True,PASS
+dW2,"(10, 128)","(10, 128)",0.0,True,PASS
+db2,"(10,)","(10,)",0.0,True,PASS

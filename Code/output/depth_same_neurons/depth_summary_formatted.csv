@@ -1,0 +1,4 @@
+Hidden Layers,Parameters,Train Accuracy,Validation Accuracy,Validation Loss,Generalization Gap,Training Time
+1,"101,770",99.99% ± 0.01%,97.81% ± 0.05%,0.0808 ± 0.0016,2.18 ± 0.06 points,24.9 ± 1.2 sec
+2,"118,282",100.00% ± 0.00%,97.89% ± 0.14%,0.1071 ± 0.0037,2.11 ± 0.14 points,36.2 ± 1.7 sec
+3,"134,794",100.00% ± 0.00%,97.24% ± 0.15%,0.1825 ± 0.0082,2.76 ± 0.15 points,41.0 ± 3.7 sec
